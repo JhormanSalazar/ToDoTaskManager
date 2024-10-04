@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Jhorman Salazar" />
+    <meta name="description" content="Task managing app, add your own task!" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Task Manager</title>
+  </head>
+  <body>
+    <header>
+      <nav class="page-navbar">
+        <ul class="navbar-menu">
+          <li class="menu-item"><a href="">Task Manager</a></li>
+          <li class="menu-item"><a href="">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <section>
+        <form id="task-form" class="task-form">
+          <h2>Task Manager</h2>
+          <input
+            id="input-task"
+            type="text"
+            placeholder="Enter a new task"
+            autocomplete="text"
+          />
+          <input id="add-task-input" type="submit" value="Add Task" />
+          <ul id="task-list"></ul>
+        </form>
+       
+      </section>
+    </main>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

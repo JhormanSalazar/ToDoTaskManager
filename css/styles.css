@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    background-color: #c68fe6;
+  }
+  
+  .page-navbar {
+    box-shadow: 0rem 0.6rem 0.8rem #7e2aaf;
+    background-color: #c68fe6;
+  }
+  
+  .navbar-menu {
+    display: flex;
+  }
+  
+  .menu-item {
+    margin: 1rem 1.5rem;
+    font-size: 2.5rem;
+  }
+  
+  .menu-item a {
+    color: #fff7f7;
+  }
+  
+  .main-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .task-form {
+    padding: 3.5rem;
+    margin: 5rem auto;
+    background-color: #fff7f7;
+    width: 60rem;
+    height: 60rem;
+    border-radius: 1.5rem;
+    box-shadow: 0rem 0.1rem 0.8rem rgb(0, 0, 0.1);
+  }
+  
+  .task-form h2 {
+    color: #222;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  #input-task {
+    width: 80%;
+    height: 3rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  #add-task-input {
+    margin-left: 0.5rem;
+    width: 9rem;
+    height: 3rem;
+    color: #fff7f7;
+    font-size: 1.6rem;
+    background-color: #c68fe6;
+  }
+  
+  #task-list {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    max-height: 45.5rem;
+    overflow-y: scroll;
+  }
+  
+  .task-list-item {
+    position: relative;
+    padding: 1rem 10rem 1rem 1rem;
+    margin-bottom: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 0.5rem;
+    word-wrap: break-word;
+  }
+  
+  .delete-button,
+  .edit-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0.5rem;
+  }
+  
+  .delete-button {
+    right: 1rem;
+    background-color: rgba(255, 0, 0, 0.781);
+  }
+  
+  .edit-button {
+    right: 6rem;
+    background-color: rgba(0, 4, 255, 0.74);
+  }
+  
